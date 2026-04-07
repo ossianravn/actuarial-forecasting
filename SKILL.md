@@ -230,6 +230,8 @@ Do not finalize until all of the following are true:
 3. Search in the local language and use official local sources.
 4. Compute a residual bucket if the field is still incomplete.
 
+For concrete input/output patterns and the expected level of numerical rigor, read `references/examples.md`.
+
 ## Activation tests
 ### Should trigger
 - "price this mayoral election market and tell me who is under- or overpriced."
@@ -250,5 +252,6 @@ Do not finalize until all of the following are true:
 - `references/elections.md`: election and political-contest playbook.
 - `references/company-forecasting.md`: company quarter and operational-metric playbook.
 - `references/market-pricing.md`: fair-value and prediction-market playbook.
+- `references/examples.md`: concrete example forecasts showing structure and numerical rigor.
 - `references/source-log.md`: lightweight evidence ledger template.
 - `scripts/forecast_math.py`: exact arithmetic helpers for normalization, expected value, and growth-rate summaries.
